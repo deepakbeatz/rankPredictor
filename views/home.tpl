@@ -5,16 +5,30 @@
 
 <body>
 <script src=/static/js/bootstrap.min.js></script>
-<h1><b>Welcome to DemoApp</b></h1>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="./">PredictMyRank</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<div class="container">
-<div class="row">
-<div class="col-lg-3 col-sm-6" id="pink">Hey</div>
-<div class="col-lg-3 col-sm-6" id="pink">have a</div>
-<div class="col-lg-3 col-sm-6" id="pink">Nice</div>
-<div class="col-lg-3 col-sm-6" id="pink">Day!</div>
-</div>
-</div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="./">About</a>
+      </li>
+    </ul> 
+      
+    <ul class="navbar-nav navbar-right">
+    <li class="nav-item active"><a class="nav-link" href="./predict">Login</a></li>
+    <li class="nav-item active"><a class="nav-link" href="./">Signup</a></li>
+    </ul>
+    
+  </div>
+</nav>
+
 
 
 

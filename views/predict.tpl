@@ -1,80 +1,62 @@
 <head>
-<link rel="stylesheet" href="/static/css/home.css">
 <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+<link rel="stylesheet" href="/static/css/home.css">
 </head>
 
 <body>
 
 
-<div class="d-flex" id="wrapper">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="./">PredictMyRank</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Start Bootstrap </div>
-      <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
-      </div>
-    </div>
-    <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <div class="container-fluid">
-        <h1 class="mt-4">Simple Sidebar</h1>
-        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
-      </div>
-    </div>
-    <!-- /#page-content-wrapper -->
-
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="./">About</a>
+      </li>
+    </ul> 
+      
+    <ul class="navbar-nav navbar-right">
+    <li class="nav-item active"><a class="nav-link" href="./">Logout</a></li>
+    </ul>
+    
   </div>
+</nav>
+
+<div class="jumbotron" id="container1">
+  <h1 class="display-4" id="c1">Rank Predictor</h1>
+ <form method="post" action="./predict">
+  <div class="form-group">
+    <label for="Name">Enter Your Name</label>
+    <input type="text" name="name" class="form-control" id="Name" placeholder="Name">
+    <small id="emailHelp" class="form-text text-muted">Your Mark Details are Secured!</small>
+  </div>
+  <div class="form-group">
+    <label for="JEEMarks">Enter Your JEE Marks</label>
+    <input type="text" name="jeemarks" class="form-control" id="JEE-Marks" placeholder="JEE Marks">
+  </div>
+  <div class="form-group">
+    <label for="BoardMarks">Enter Your BOARD percentage</label>
+    <input type="text" name="boardmarks" class="form-control" id="BOARD-percentage" placeholder="BOARD percentage">
+  </div>
+  <br>
+  <input type="submit" value="Predict Rank" id="submit" class="btn btn-primary">
+</form>
+</div>
+
+
+
 
 <!-- Bootstrap core JavaScript -->
   <script src="static/js/jquery.min.js"></script>
   <script src="static/js/bootstrap.bundle.min.js"></script>
 
-<!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+
 
 </body>
