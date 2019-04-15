@@ -64,8 +64,8 @@
 <script>
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
     
-    document.getElementById('container1').setAttribute("style","width:10px");
-    document.getElementById('container1').setAttribute("style","height:450px");
+    document.getElementById('container1').setAttribute("style","width:100px;height:450px;");
+    
 }
 </script>
 <footer id="nbtm">
