@@ -63,6 +63,8 @@
   <script src="static/js/bootstrap.bundle.min.js"></script>
 <script>
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+    document.getElementById('container1').setAttribute("style","position:relative");
+    document.getElementById('container1').setAttribute("style","left:5%");
     document.getElementById('container1').setAttribute("style","width:250px");
 }
 </script>
