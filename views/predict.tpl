@@ -61,18 +61,11 @@
 <!-- Bootstrap core JavaScript -->
   <script src="static/js/jquery.min.js"></script>
   <script src="static/js/bootstrap.bundle.min.js"></script>
-
-$( document ).ready(function() {      
-    var isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
-
-    if (isMobile) {
-        document.getElementById("container").style.position = "relative";
-        document.getElementById("container").style.left = "0px";
-        document.getElementById("container").style.width = "300px";
-        document.getElementById("container").style.height = "700px";
-    }
- });
-
+<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+    document.getElementById('container1').setAttribute("style","width:250px");
+}
+</script>
 <footer id="nbtm">
 
 Developed with love by Deepak Beatz
