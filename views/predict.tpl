@@ -62,6 +62,17 @@
   <script src="static/js/jquery.min.js"></script>
   <script src="static/js/bootstrap.bundle.min.js"></script>
 
+$( document ).ready(function() {      
+    var isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+
+    if (isMobile) {
+        document.getElementById("container").style.position = "relative";
+        document.getElementById("container").style.left = "0px";
+        document.getElementById("container").style.width = "300px";
+        document.getElementById("container").style.height = "700px";
+    }
+ });
+
 <footer id="nbtm">
 
 Developed with love by Deepak Beatz
