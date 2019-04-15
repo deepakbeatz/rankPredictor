@@ -13,5 +13,9 @@ def serve_static(filepath):
 def home():
     return template("home")
 
+@get('/predict')
+def home():
+    return template("predict")
+
 run(host="0.0.0.0",port=int(os.environ.get('PORT',5000)))
 
