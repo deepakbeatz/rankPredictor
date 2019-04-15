@@ -41,7 +41,7 @@
     </form>
   </div>
 </nav>
-
+<script src=/static/js/bootstrap.min.js></script>
 <form>
 <div class="container">
   <div class="form-group">
