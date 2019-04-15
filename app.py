@@ -13,5 +13,5 @@ def serve_static(filepath):
 def home():
     return template("home")
 
-run(host="localhost",port=8077,debug=True)
+run(host="0.0.0.0",port=int(os.environ.get('PORT',5000)))
 
