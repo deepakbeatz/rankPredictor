@@ -64,7 +64,7 @@
 <script>
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
     
-    document.getElementById('container1').setAttribute("style","position:relative;left:30%;width:250px;height:450px;");
+    document.getElementById('container1').setAttribute("style","position:relative;left:15%;width:250px;height:450px;");
     
 }
 </script>
