@@ -20,20 +20,53 @@ body h1{
 #container1{
     position: relative;
     background-color: rgba(255,255,255,0.9);
-    top:15%;
+    top:11%;
     left:30%;
+    
+    
     width:40%;
-    height:80%;
+    height:520px;
 }
 
 
 #c1{
     color: black;
-    font-size: 200%;
 }
 
+#j1{
+    top:10%;
+}
 #submit{
     position: relative; 
     left:25%;
     width:50%;
+}
+
+#nbtm{
+    
+    text-align:center;
+    padding:20px;
+   /* just for demo */ 
+  
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+   
+   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    color: white;
+}
+
+#ntop, #nbtm {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 99;
+    position: fixed;
 }

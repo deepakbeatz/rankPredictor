@@ -1,4 +1,6 @@
 <head>
+<meta meta name="viewport" content=  
+            "width=device-width, user-scalable=no" /> 
 <link rel="stylesheet" href="/static/css/bootstrap.min.css">
 <link rel="stylesheet" href="/static/css/home.css">
 </head>
@@ -6,7 +8,7 @@
 <body>
 
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="ntop">
   <a class="navbar-brand" href="./">PredictMyRank</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -30,7 +32,9 @@
 </nav>
 
 <div class="jumbotron" id="container1">
-  <h1 class="display-4" id="c1">Rank Predictor</h1>
+<div id="j1">
+<h3 id="c1">Rank Predictor</h1>
+</div>
  <form method="post" action="./predict">
   <div class="form-group">
     <label for="Name">Enter Your Name</label>
@@ -49,6 +53,7 @@
   <input type="submit" value="Predict Rank" id="submit" class="btn btn-primary">
 </form>
 </div>
+</div>
 
 
 
@@ -57,6 +62,10 @@
   <script src="static/js/jquery.min.js"></script>
   <script src="static/js/bootstrap.bundle.min.js"></script>
 
+<footer id="nbtm">
 
+Developed with love by Deepak Beatz
+
+</nav>
 
 </body>
