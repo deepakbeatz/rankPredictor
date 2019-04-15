@@ -64,9 +64,9 @@
 <script>
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
     document.getElementById('container1').setAttribute("style","position:absolute");
-    document.getElementById('container1').setAttribute("style","left:3%");
+    document.getElementById('container1').setAttribute("style","left:0%");
     document.getElementById('container1').setAttribute("style","width:250px");
-    document.getElementById('container1').setAttribute("style","height:500px");
+    document.getElementById('container1').setAttribute("style","height:450px");
 }
 </script>
 <footer id="nbtm">
