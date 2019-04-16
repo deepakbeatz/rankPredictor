@@ -29,6 +29,20 @@
   </div>
 </nav>
 
+<!-- Bootstrap core JavaScript -->
+  <script src="static/js/jquery.min.js"></script>
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+    
+    document.getElementById('container1').setAttribute("style","position:relative;left:16.5%;width:250px;height:450px;");
+    
+}
+</script>
+<footer id="nbtm">
+<div id="text">
+Developed with love by Deepak Beatz
+</div>
 
 
 
