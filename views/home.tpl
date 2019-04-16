@@ -1,8 +1,10 @@
 <head>
 <meta meta name="viewport" content=  
             "width=device-width, user-scalable=no" /> 
-<link rel="stylesheet" href="/static/css/home.css">
+
 <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="/static/css/home.css">
 </head>
 
 <body>
@@ -30,6 +32,20 @@
     
   </div>
 </nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div id="content1">
+        <h1><b>Predict My Rank</b></h1>
+        <h5>Know your expected JEE rank before your results</h5>
+        <hr>
+        <a href="./login" class="btn btn-light"><i class="fas fa-award"></i> Get Started</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Bootstrap core JavaScript -->
   <script src="static/js/jquery.min.js"></script>

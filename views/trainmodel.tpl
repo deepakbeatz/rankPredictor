@@ -43,7 +43,7 @@
   </div>
   <div class="form-group">
     <label for="Dataset">Upload Datasheet</label>
-    <input type="file" name="datafle" class="form-control" id="datafile" placeholder="Datasheet">
+    <input type="file" name="datafile" class="form-control" id="datafile" placeholder="Datasheet">
   </div>
   
   <br>

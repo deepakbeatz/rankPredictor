@@ -39,6 +39,8 @@ body h1{
     height:400px;
 }
 
+
+
 #container3{
     position: relative;
     
@@ -100,4 +102,21 @@ body h1{
     right:1px;
     width:100%;
     bottom:15%;
+}
+
+#content1{
+    
+    text-align: center;
+    padding-top: 20%;
+    
+    
+}
+
+h1,h5{
+    color:white;
+}
+
+hr{
+    width:400px;
+    border:1px solid #f8f8f8
 }
