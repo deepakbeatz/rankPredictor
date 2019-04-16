@@ -37,6 +37,10 @@ def admin():
 def admin():
     return template("adminpage")
 
+@get('/adminpage')
+def admin():
+    return template("adminpage")
+
 @get('/addadmin')
 def admin():
     return template("addadmin")
@@ -44,6 +48,14 @@ def admin():
 @post('/addadmin')
 def admin():
     return template("admin")
+
+@get('/trainmodel')
+def admin():
+    return template("trainmodel")
+
+@post('/trainmodel')
+def admin():
+    return template("adminpage")
     
 @get('/predict')
 def home():

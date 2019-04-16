@@ -24,6 +24,7 @@
     </ul> 
       
     <ul class="navbar-nav navbar-right">
+    <li class="nav-item active"><a class="nav-link" href="./trainmodel">TrainModel</a></li>
     <li class="nav-item active"><a class="nav-link" href="./addadmin">AddAdmin</a></li>
     <li class="nav-item active"><a class="nav-link" href="./">Logout</a></li>
     </ul>

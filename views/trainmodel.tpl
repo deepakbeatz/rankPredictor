@@ -31,26 +31,23 @@
   </div>
 </nav>
 
-<div class="jumbotron" id="container1">
+<div class="jumbotron" id="container3">
 <div id="j1">
-<h3 id="c1">Admin Details</h1>
+<h3 id="c1">Model Details</h1>
 </div>
- <form method="post" action="./addadmin">
+ <form method="post" action="./trainmodel">
   <div class="form-group">
-    <label for="UserName">Enter UserName</label>
-    <input type="text" name="username" class="form-control" id="username" placeholder="Username">
-    <small id="emailHelp" class="form-text text-muted">Your Details are Secured!</small>
+    <label for="ModelName">Enter ModelName</label>
+    <input type="text" name="modelname" class="form-control" id="modelname" placeholder="ModelName">
+    
   </div>
   <div class="form-group">
-    <label for="Password">Enter Password</label>
-    <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+    <label for="Dataset">Upload Datasheet</label>
+    <input type="file" name="datafle" class="form-control" id="datafile" placeholder="Datasheet">
   </div>
-  <div class="form-group">
-    <label for="RetypePassword">Retype Password</label>
-    <input type="text" name="rpassword" class="form-control" id="rpassword" placeholder="Retype Password">
-  </div>
+  
   <br>
-  <input type="submit" value="AddAdmin" id="submit" class="btn btn-primary">
+  <input type="submit" value="TrainModel" id="submit" class="btn btn-primary">
 </form>
 </div>
 </div>
@@ -64,7 +61,7 @@
 <script>
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
     
-    document.getElementById('container1').setAttribute("style","position:relative;left:16.5%;width:250px;height:450px;");
+    document.getElementById('container1').setAttribute("style","position:relative;left:16.5%;width:250px;height:400px;");
     
 }
 </script>
