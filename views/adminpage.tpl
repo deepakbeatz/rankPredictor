@@ -24,8 +24,8 @@
     </ul> 
       
     <ul class="navbar-nav navbar-right">
-    <li class="nav-item active"><a class="nav-link" href="./login">Login</a></li>
-    <li class="nav-item active"><a class="nav-link" href="./register">Signup</a></li>
+    <li class="nav-item active"><a class="nav-link" href="./addadmin">AddAdmin</a></li>
+    <li class="nav-item active"><a class="nav-link" href="./">Logout</a></li>
     </ul>
     
   </div>

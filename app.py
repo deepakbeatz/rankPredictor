@@ -13,6 +13,38 @@ def serve_static(filepath):
 def home():
     return template("home")
 
+@get('/login')
+def login():
+    return template("login")
+
+@get('/register')
+def register():
+    return template("register")
+
+@post('/login')
+def login():
+    return template("predict")
+
+@post('/register')
+def register():
+    return template("login")
+
+@get('/admin')
+def admin():
+    return template("admin")
+
+@post('/admin')
+def admin():
+    return template("adminpage")
+
+@get('/addadmin')
+def admin():
+    return template("addadmin")
+
+@post('/addadmin')
+def admin():
+    return template("admin")
+    
 @get('/predict')
 def home():
     return template("predict")
