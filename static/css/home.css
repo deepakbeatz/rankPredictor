@@ -47,7 +47,7 @@ body h1{
     
     padding:20px;
    /* just for demo */ 
-  
+    text-align: center;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -60,12 +60,7 @@ body h1{
     color: white;
 }
 
-#text{
-    text-align:center;
-    position: absolute;
-    left:40%;
-    bottom:25%;
-}
+
 #ntop, #nbtm {
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -75,4 +70,10 @@ body h1{
     box-sizing: border-box;
     z-index: 99;
     position: fixed;
+}
+
+#ftext{
+    position: absolute;
+    width:100%;
+    bottom:15%;
 }

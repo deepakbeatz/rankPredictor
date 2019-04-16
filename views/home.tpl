@@ -1,4 +1,6 @@
 <head>
+<meta meta name="viewport" content=  
+            "width=device-width, user-scalable=no" /> 
 <link rel="stylesheet" href="/static/css/home.css">
 <link rel="stylesheet" href="/static/css/bootstrap.min.css">
 </head>
@@ -40,10 +42,10 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
 }
 </script>
 <footer id="nbtm">
-<div id="text">
+<div id="ftext">
 Developed with love by Deepak Beatz
 </div>
-
+</footer>
 
 
 </body>

@@ -69,9 +69,10 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
 }
 </script>
 <footer id="nbtm">
-<div id="text">
+<div id="ftext">
 Developed with love by Deepak Beatz
 </div>
+</footer>
 
 
 
